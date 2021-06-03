@@ -1,9 +1,27 @@
 package com.devevair;
 
+import java.time.LocalDate;
+import java.util.Date;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-        System.out.println("Horra my first java app");
+        // System.out.println("Hurra my first java app");
+        int number = 100;   // long, double, byte, short, float
+        String name = "Developer"; //boolean, char
+        Date date = new Date(); // this need to import java.util.Date
+        byte theByte = -128;
+        short theShort = 8989;
+        long theLong = 78783833432L;
+        boolean is = true;
+        char nameInitial = 'E';
+        float theFloat = 3.14F;
+
+        String dev = new String("developer");
+        System.out.println(dev);
+
+        LocalDate now = LocalDate.now();  // you need to import java.time.LocalDate
+        System.out.println(now.getMonth());
+
     }
 }
