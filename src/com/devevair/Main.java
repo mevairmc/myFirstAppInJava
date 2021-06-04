@@ -42,5 +42,25 @@ public class Main {
         System.out.println(Math.PI);
 
         // Comparison Operators
+        boolean isAdult = true;
+        boolean isStudent = false;
+        System.out.println( isAdult && isStudent );
+
+        // If statement
+        int age = 15;
+        if (age >=18 ){
+            System.out.println("I am an adult");
+        }else {
+            System.out.println("I am not an adult");
+        }
+
+        // Ternary Operator
+        String message = age >= 18 ?
+                "Adult":
+                "kid";
+        System.out.println(message);
+
+        // Switch statement is the same as a javascript
+        //
     }
 }
